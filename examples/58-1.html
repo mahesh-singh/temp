@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>A5</title>
+
+  <!-- Normalize or reset CSS with your favorite library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- Load paper.css for happy printing -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css">
+
+  <!-- Set page size here: A5, A4 or A3 -->
+  <!-- Set also "landscape" if you need -->
+  <style>
+    @page { size: 58mm 150mm } /* output size */
+    body.receipt .sheet { width: 58mm; height: 150mm } /* sheet size */
+    @media print { body.receipt { width: 58mm } } /* fix for Chrome */
+    .sheet.padding-05mm { padding: 05mm }
+    .sheet.font { font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace; font-size: 12px; }
+  </style>
+</head>
+
+<!-- Set "A5", "A4" or "A3" for class name -->
+<!-- Set also "landscape" if you need -->
+<body class="receipt">
+
+  <!-- Each sheet element should have the class "sheet" -->
+  <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+  <section class="sheet padding-05mm font">
+
+    <!-- Write HTML just like a web page -->
+    <article>
+      01/28/19 &nbsp; &nbsp; &nbsp; &nbsp; 08:12:55
+      <br> <br>
+      Court House <br>
+      Arlington VA <br>
+      FOR CUSTOMER SERVICE <br>
+      CALL 202-962-5719
+
+      <br> <br>
+
+      2100 Wilson Blvd <br>
+      MEZZANINE 96 <br>
+      MACHINE 30 <br>
+      <br>
+      AN: &nbsp; ************8238
+      <br>
+      VENDOR: 096-30-30774<br>
+      REF No: 307747874792<br>
+      AUTH NO: 100669
+      <br>
+      <br>
+      CREDIT PURCHASE
+      <br>
+      <br>
+      ADD $10.00 VALUE
+      <br>
+      <br>
+      TO SMARTRIP
+      <br>
+      <br>
+      S/N: <br>
+      0167 0390 7578 0254 5923
+      <br>
+      <br>
+      <br>
+      TOTAL AMOUNT: $10.00
+      <br>
+      <br>
+      <br>
+      &nbsp; &nbsp; &nbsp; &nbsp;THANK YOU <br>
+      &nbsp;  FOR RIDINC METRORAIL <br>
+      <br>
+      <br>
+      &nbsp; &nbsp; &nbsp; THE FUTURE IS<br>
+      &nbsp; &nbsp;&nbsp; RIDING ON METRO<br>
+
+
+
+
+
+    </article>
+
+  </section>
+
+</body>
+
+</html>
